@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 24px;
+}
+.texts{
+    z-index: 10;
+    width: 100%;
+    max-width: 5xl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2rem;
+    display: flex;
+  }
+  
+  .red {
+    color: #ff0000;
+    margin-bottom: 4px;
+   
+  }
+  .green {
+    color: #00ff00;
+    margin-bottom: 4px;
+    margin-top: 50px,
+  }
+  .icons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 50px; 
+  }
+  .icon{
+    margin-right: 30px; 
+}
+.bouton{
+
+        align-items: center;
+        margin-top: 5px;   
+      
+}
+  
