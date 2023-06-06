@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
 
-export default function Carousel({
+export default function Slider({
   children: slides,
   autoSlide = false,
   autoSlideInterval = 10000,
