@@ -1,0 +1,26 @@
+{
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0,
+    "maturity": "None",
+    "iteration": 0
+  },
+  "id": "0a3dfe8a-17e2-4553-adf6-ee2f2291f9f8",
+  "bundleId": "com.ultraleap.touchlessticketingmachine",
+  "projectName": "Ultraleap",
+  "productName": "TouchlessTicketingMachine",
+  "displayName": "Touchless Ticketing Machine",
+  "shortDescription": "A touchless train ticketing machine",
+  "description": "A touchless train ticketing machine. Users can collect prebooked tickets using a reservation code, buy tickets by inputting details, or check latest departures.",
+  "image": "ultraleap-symbol-green.png",
+  "executablePath": "TouchlessTicketingMachine.exe",
+  "monitorOrientation": "Portrait",
+  "arrayType": "Unknown",
+  "arrayOrientation": "Unknown",
+  "runtime": "1-2 minutes",
+  "handtrackingOrHaptics": "HandtrackingOnly",
+  "hapticsType": "None",
+  "cameraType": -1,
+  "numberOfHands": "One"
+}

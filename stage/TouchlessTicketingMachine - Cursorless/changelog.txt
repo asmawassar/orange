@@ -1,0 +1,9 @@
+- Larger icons, don't compress/blur
+- Reach submodule updated, bug has been fixed (where pressing "Reset to default values" in Reach config hid CTI)
+- CTI delay is 30 seconds by default (and on by default)
+- Demo restarts after delay that is read from config file (so whatever delay the CTI appears after) 
+- DIsabled buttons are grey, and do not animate to indicate they cannot be touched
+- Interactable buttons animate (Elliot's Polish script)
+- Audio now included
+- Double-clicking bug fixed
+- UI updated as per XDR feedback
