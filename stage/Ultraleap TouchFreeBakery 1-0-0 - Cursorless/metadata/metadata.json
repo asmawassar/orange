@@ -1,0 +1,26 @@
+{
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0,
+    "maturity": "None",
+    "iteration": 0
+  },
+  "id": "fd8f25bf-6562-4358-a3c8-59143659ca80",
+  "bundleId": "com.ultraleap.touchfreebakery",
+  "projectName": "Ultraleap",
+  "productName": "TouchFreeBakery",
+  "displayName": "TouchFreeBakery",
+  "shortDescription": "An example of a touchless bakery kiosk",
+  "description": "An example of a touchless bakery kiosk",
+  "image": "bakery_icon (1).png",
+  "executablePath": "TouchFreeBakery.exe",
+  "monitorOrientation": "Landscape",
+  "arrayType": "Unknown",
+  "arrayOrientation": "Unknown",
+  "runtime": "1 minute",
+  "handtrackingOrHaptics": "HandtrackingOnly",
+  "hapticsType": "Unknown",
+  "cameraType": -1,
+  "numberOfHands": "One"
+}
