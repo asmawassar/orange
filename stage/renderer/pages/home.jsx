@@ -1,8 +1,6 @@
 "use client";
 import styles from "./page.module.css";
-import Slider from "./slider";
 import Link from "next/link";
-import style from "./styling.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -44,16 +42,16 @@ export default function Home() {
         className="swiper_container"
       >
         <SwiperSlide>
-          <img src={"/images/1.jpg"} alt="slide_image" style={{ width: "100%", height: "100%" }}/>
+          <img src={"../images/1.jpg"} alt="slide_image" style={{ width: "100%", height: "100%" }}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"/images/2.jpg"} alt="slide_image" style={{ width: "100%", height: "100%" }}/>
+          <img src={"../images/2.jpg"} alt="slide_image" style={{ width: "100%", height: "100%" }}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"/images/3.jpg"} alt="slide_image" style={{ width: "100%", height: "100%" }}/>
+          <img src={"../images/3.jpg"} alt="slide_image" style={{ width: "100%", height: "100%" }}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"/images/4.jpg"} alt="slide_image" style={{ width: "100%", height: "100%" }}/>
+          <img src={"../images/4.jpg"} alt="slide_image" style={{ width: "100%", height: "100%" }}/>
         </SwiperSlide>
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
@@ -66,9 +64,16 @@ export default function Home() {
         </div>
         </Swiper>
       </div>
-      <div className={style.container}>
+      <div >
         <Link href="/rating">
-          <button className="button" style={{ marginTop: "150px" }}>
+          <button className="button" style={{
+            padding: "10px 20px",
+            background: "#007bff",
+            color: "#fff",
+            alignItems: "center",
+            border: "none",
+            borderRadius: "4px",
+            cursor: "pointer", marginTop: "150px" }}>
             Go To Rating
           </button>
         </Link>

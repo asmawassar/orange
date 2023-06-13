@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -8,7 +7,7 @@ import {
   faFaceMeh,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import styles from "../styling.css";
+
 import pages from "./page.module.css";
 export default function Home() {
   library.add(faFaceAngry, faFaceSmile, faFaceMeh);
@@ -139,15 +138,22 @@ export default function Home() {
       </div>
 
       <div
-        className={styles.container}
+        
         style={{
           display: "flex",
           justifyContent: "center",
           marginTop: "50px",
         }}
       >
-        <Link href="/">
-          <button className="button" style={{ marginTop: "150px" }}>
+        <Link href="/home">
+          <button className="button" style={{
+            padding: "10px 20px",
+            background: "#007bff",
+            color: "#fff",
+            alignItems: "center",
+            border: "none",
+            borderRadius: "4px",
+            cursor: "pointer", marginTop: "150px" }}>
             Explore Offers
           </button>
         </Link>
