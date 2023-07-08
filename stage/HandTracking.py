@@ -2,6 +2,14 @@ import cv2
 import mediapipe as mp
 import pyautogui
 import time
+import ctypes
+
+# custom cursor
+'''
+cursor_file = "C:/Users/asmaw/Desktop/stages/stage/cursor.cur"
+cursor = ctypes.windll.user32.LoadCursorFromFileW(cursor_file)
+ctypes.windll.user32.SetSystemCursor(cursor, 32512)
+'''
 
 
 def up(lst):
